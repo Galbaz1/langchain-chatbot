@@ -103,7 +103,7 @@ def main():
         
 
         # Display the response in the Streamlit app
-        st.write('Waitless:')
+        st.write('Workreel:')
         st.write(answer)
         for doc in parsed_documents:
             st.write(f"Source:", doc["metadata"]["source"])
